@@ -1,0 +1,27 @@
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-pref-width: 250px;
+}
+
+.button.generate {
+    -fx-background-color: #181818;
+    -fx-text-fill: white;
+    -fx-border-width: 2px;
+    -fx-border-color: white;
+}
+
+.button.sort {
+    -fx-background-color: #181818;
+    -fx-text-fill: white;
+    -fx-border-width: 2px;
+    -fx-border-color: white;
+}
+
+.button.generate:hover {
+    -fx-background-color: #333333;
+}
+
+.button.sort:hover {
+    -fx-background-color: #333333;
+}
